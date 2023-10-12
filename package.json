@@ -1,0 +1,28 @@
+{
+  "name": "openmusicapp-queue-consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/Consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "auto-bind": "^5.0.1",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.21",
+    "pg": "^8.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
